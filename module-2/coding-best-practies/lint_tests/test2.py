@@ -1,8 +1,10 @@
-first_variable=4
-second_Variable=6
-third_variable = 8
+"""docstring for pylint"""
 
-total = (first_variable +
-           second_Variable -
-         third_variable)
+FIRST=4
+SECOND=6
+THIRD = 8
+
+total = (FIRST
+	 + SECOND
+	 - THIRD)
 print(total)
